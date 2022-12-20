@@ -11,7 +11,7 @@ stream = cv2.VideoCapture("clip.mp4")
 flag = True
 def play(speed):
     global flag
-    print(f"You clicked on play. Speed is {speed}")
+    print(f"Arghya clicked on play. Speed is {speed}")
 
     # Play the video in reverse mode
     frame1 = stream.get(cv2.CAP_PROP_POS_FRAMES)
