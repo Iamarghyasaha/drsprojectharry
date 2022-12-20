@@ -25,7 +25,7 @@ def play(speed):
     canvas.image = frame
     canvas.create_image(0,0, image=frame, anchor=tkinter.NW)
     if flag:
-        canvas.create_text(134, 26, fill="black", font="Times 26 bold", text="Decision Pending")
+        canvas.create_text(134, 26, fill="black", font="Times 26 bold", text="The Decision is Pending")
     flag = not flag
     
 
